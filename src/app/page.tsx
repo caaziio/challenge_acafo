@@ -340,6 +340,25 @@ function WhatYouGetSection() {
               </div>
             </div>
           </div>
+
+          <div className="p-8 md:p-12 bg-slate-900 border-t-8 border-emerald-400 relative">
+            <div className="text-right">
+              <p className="text-lg text-slate-400 font-bold tracking-widest mb-2 uppercase">Total Value</p>
+              <p className="text-4xl md:text-5xl font-black text-slate-500 line-through decoration-red-500 decoration-4">₩1,120,000</p>
+            </div>
+            
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8 pt-8 border-t-2 border-slate-700 border-dashed mt-8">
+              <div>
+                <p className="text-emerald-400 font-black text-xl tracking-widest mb-2 uppercase">Today</p>
+                <div className="text-6xl md:text-7xl font-black tracking-tighter text-white">₩300,000</div>
+                <p className="font-bold text-slate-400 mt-2">For the full 60-Day Challenge</p>
+              </div>
+              
+              <a href="/apply" className="w-full md:w-auto text-center bg-emerald-400 text-slate-900 px-10 py-5 font-black text-xl tracking-widest uppercase hover:translate-x-1 hover:translate-y-1 hover:shadow-[4px_4px_0_0_#0f172a] transition-all border-4 border-slate-900 shadow-[8px_8px_0_0_#0f172a]">
+                Join Now <ArrowRight className="inline-block w-6 h-6 ml-2" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

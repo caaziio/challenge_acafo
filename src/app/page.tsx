@@ -41,23 +41,23 @@ function HeroSection() {
           April Cohort • 10 Spots Only
         </div>
 
-        <h1 className="text-6xl md:text-8xl lg:text-[7rem] font-black tracking-tighter text-slate-900 leading-[0.9] mb-10">
+        <h1 className="text-5xl md:text-8xl lg:text-[7rem] font-black tracking-tighter text-slate-900 leading-[0.9] mb-10 break-words px-4">
           Land a Job in Korea in <br />
-          <span className="text-transparent inline-block pb-2 bg-clip-text bg-gradient-to-r from-slate-900 to-slate-900 border-b-8 border-emerald-400" style={{ WebkitTextStroke: '2px #0f172a', textShadow: '4px 4px 0px #34d399' }}>60 Days.</span>
+          <span className="text-slate-900 inline-block pb-2 border-b-4 md:border-b-8 border-emerald-400" style={{ WebkitTextStroke: '1px #0f172a', textShadow: '2px 2px 0px #34d399' }}>60 Days.</span>
         </h1>
 
         <p className="text-xl md:text-2xl text-slate-700 mb-10 max-w-2xl font-bold tracking-wide leading-relaxed border-l-4 border-r-4 border-slate-900 px-6 bg-slate-50 py-6 mx-auto">
           No excuses. I've designed a rigorous 60-day execution program for foreigners serious about getting hired. I will be your personal coach, guiding you every single step of the way.
         </p>
 
-        <div className="flex items-center justify-center gap-3 mb-10 bg-slate-900 text-white p-4 border-2 border-slate-900 shadow-[4px_4px_0_0_#34d399] w-max mx-auto">
+        <div className="flex items-center justify-center gap-3 mb-10 bg-slate-900 text-white p-4 border-2 border-slate-900 shadow-[4px_4px_0_0_#34d399] w-fit mx-auto">
           <span className="font-black text-xs tracking-widest text-emerald-400">Powered by</span>
           <span className="text-2xl font-black tracking-widest text-white">Acafo</span>
         </div>
 
         <div className="flex flex-col items-center gap-4 mt-4 w-full md:w-auto">
-          <a href="/apply" className="w-full md:w-auto flex items-center justify-center gap-4 bg-emerald-400 text-slate-900 px-12 py-6 font-black tracking-widest text-2xl transition-all hover:translate-x-1 hover:translate-y-1 border-4 border-slate-900 shadow-[8px_8px_0_0_#0f172a] hover:shadow-[4px_4px_0_0_#0f172a] uppercase">
-            Accept the Challenge <ArrowRight className="w-8 h-8 text-slate-900" />
+          <a href="/apply" className="w-full md:w-auto flex items-center justify-center gap-4 bg-emerald-400 text-slate-900 px-6 md:px-12 py-6 font-black tracking-widest text-xl md:text-2xl transition-all hover:translate-x-1 hover:translate-y-1 border-4 border-slate-900 shadow-[8px_8px_0_0_#0f172a] hover:shadow-[4px_4px_0_0_#0f172a] uppercase">
+            Accept the Challenge <ArrowRight className="w-6 h-6 md:w-8 md:h-8 text-slate-900" />
           </a>
           <CountdownBlock />
         </div>
@@ -384,7 +384,7 @@ function TestimonialSection() {
           </h2>
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <p className="font-black text-slate-900 tracking-widest text-lg border-l-4 border-slate-900 pl-4 uppercase">
-              No theory. <br />Just real-world proof from the field.
+              No theory. <br />Just real-world proof from the people who tried it.
             </p>
             <div className="hidden md:block w-32 h-4 bg-slate-900 border-2 border-slate-900"></div>
           </div>
@@ -455,7 +455,7 @@ function WhoItsForSection() {
                 "Passive learner (watcher)",
                 "Not dead-serious about the market"
               ].map((item, i) => (
-                <li key={i} className="flex items-center gap-4 font-black text-lg md:text-xl text-slate-500 tracking-wide line-through decoration-slate-400 decoration-4">
+                <li key={i} className="flex items-center gap-4 font-black text-lg md:text-xl text-slate-500 tracking-wide line-through decoration-slate-400 decoration-2">
                   <XCircle className="w-8 h-8 flex-shrink-0" />
                   <span>{item}</span>
                 </li>
@@ -537,7 +537,7 @@ function FAQSection() {
     },
     {
       q: "I'm still abroad. Can I attend the challenge from here?",
-      a: "Absolutely. The Acafo Roadmap is conducted 100% online"
+      a: "Absolutely. The Acafo challenge is conducted 100% online through zoom calls and guidance. You can access it from anywhere."
     },
     {
       q: "I don't have a visa yet. Is it too early for me?",
@@ -644,7 +644,7 @@ function CountdownBlock() {
 
   return (
     <div className="flex flex-col items-center mt-12 w-full max-w-lg mx-auto transform hover:scale-[1.02] transition-transform">
-      <div className="bg-yellow-400 text-slate-900 px-6 py-3 font-black uppercase tracking-widest text-lg border-4 border-slate-900 border-b-0 w-max mx-auto shadow-[8px_0_0_0_#0f172a] relative z-20">
+      <div className="bg-yellow-400 text-slate-900 px-4 md:px-6 py-3 font-black uppercase tracking-widest text-sm md:text-lg border-4 border-slate-900 border-b-0 w-fit mx-auto shadow-[8px_0_0_0_#0f172a] relative z-20">
         April Cohort Begins: April 15th
       </div>
       <div className="flex w-full bg-slate-900 text-white border-4 border-slate-900 shadow-[12px_12px_0_0_#0f172a] divide-x-4 divide-slate-800">

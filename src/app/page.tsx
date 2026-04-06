@@ -115,7 +115,7 @@ function CoachSection() {
         <div className="flex-1 w-full max-w-sm relative self-center">
           <div className="aspect-[3/4] border-4 border-slate-900 shadow-[12px_12px_0_0_#34d399] relative overflow-hidden bg-white">
             <Image
-              src="/profile 2.png"
+              src="/profile-2.png"
               alt="Program Coach"
               fill
               className="object-cover"

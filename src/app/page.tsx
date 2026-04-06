@@ -19,7 +19,7 @@ export default function Home() {
 
       {/* Sticky Mobile CTA */}
       <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t-4 border-slate-900 md:hidden z-50 flex justify-center shadow-2xl">
-        <a href="#apply" className="w-full max-w-sm flex items-center justify-center gap-2 bg-slate-900 text-white px-6 py-4 font-black tracking-wider hover:bg-slate-800 transition-colors shadow-[4px_4px_0_0_#34d399]">
+        <a href="/apply" className="w-full max-w-sm flex items-center justify-center gap-2 bg-slate-900 text-white px-6 py-4 font-black tracking-wider hover:bg-slate-800 transition-colors shadow-[4px_4px_0_0_#34d399]">
           Accept the Challenge <ArrowRight className="w-5 h-5 text-emerald-400" />
         </a>
       </div>
@@ -56,7 +56,7 @@ function HeroSection() {
         </div>
 
         <div className="flex flex-col items-center gap-4 mt-4 w-full md:w-auto">
-          <a href="#apply" className="w-full md:w-auto flex items-center justify-center gap-4 bg-emerald-400 text-slate-900 px-12 py-6 font-black tracking-widest text-2xl transition-all hover:translate-x-1 hover:translate-y-1 border-4 border-slate-900 shadow-[8px_8px_0_0_#0f172a] hover:shadow-[4px_4px_0_0_#0f172a] uppercase">
+          <a href="/apply" className="w-full md:w-auto flex items-center justify-center gap-4 bg-emerald-400 text-slate-900 px-12 py-6 font-black tracking-widest text-2xl transition-all hover:translate-x-1 hover:translate-y-1 border-4 border-slate-900 shadow-[8px_8px_0_0_#0f172a] hover:shadow-[4px_4px_0_0_#0f172a] uppercase">
             Accept the Challenge <ArrowRight className="w-8 h-8 text-slate-900" />
           </a>
           <CountdownBlock />
@@ -259,7 +259,7 @@ function SolutionSection() {
             </ul>
 
             <div className="mt-12 flex flex-col md:flex-row items-center gap-6 border-t-8 border-slate-50 pt-10">
-              <a href="#apply" className="w-full md:w-auto text-center bg-slate-900 text-emerald-400 px-10 py-5 font-black text-xl tracking-widest uppercase hover:bg-slate-800 transition-all shadow-[8px_8px_0_0_#34d399] border-2 border-slate-900 active:translate-x-1 active:translate-y-1 active:shadow-none">
+              <a href="/apply" className="w-full md:w-auto text-center bg-slate-900 text-emerald-400 px-10 py-5 font-black text-xl tracking-widest uppercase hover:bg-slate-800 transition-all shadow-[8px_8px_0_0_#34d399] border-2 border-slate-900 active:translate-x-1 active:translate-y-1 active:shadow-none">
                 Claim Your Spot <ArrowRight className="inline-block ml-2 w-6 h-6 text-emerald-400" />
               </a>
               <div className="flex flex-col items-start">
@@ -585,7 +585,7 @@ function FinalCTASection() {
           April Cohort is filling. Time is ticking.
         </p>
 
-        <a href="#apply" className="inline-flex items-center justify-center gap-4 bg-white text-slate-900 px-12 py-8 font-black text-3xl tracking-widest uppercase border-4 border-slate-900 shadow-[12px_12px_0_0_#34d399] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#34d399] transition-all">
+        <a href="/apply" className="inline-flex items-center justify-center gap-4 bg-white text-slate-900 px-12 py-8 font-black text-3xl tracking-widest uppercase border-4 border-slate-900 shadow-[12px_12px_0_0_#34d399] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#34d399] transition-all">
           Join April Cohort <ArrowRight className="w-10 h-10" />
         </a>
       </div>

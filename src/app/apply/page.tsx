@@ -42,20 +42,21 @@ export default function ApplyPage() {
         </div>
       </section>
 
-      {/* Tally Embed */}
+      {/* Google Form Embed */}
       <section className="py-12 px-4 max-w-4xl mx-auto">
-        <div className="border-8 border-slate-900 shadow-[16px_16px_0_0_#34d399] bg-white min-h-[800px] relative overflow-hidden">
-          {/* Replace 'YOUR_TALLY_ID' with the actual Tally form ID or URL */}
+        <div className="border-8 border-slate-900 shadow-[16px_16px_0_0_#34d399] bg-white min-h-[1200px] relative overflow-hidden">
           <iframe 
-            src="https://tally.so/embed/mO0XG2?hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdbbhCQBGMZgYbqckePeAyWnxS9itilZOeQ-tomxsiKvMf5gg/viewform?embedded=true" 
             width="100%" 
-            height="100%" 
+            height="2447" 
             frameBorder="0" 
             marginHeight={0} 
-            marginWidth={0} 
+            marginWidth={0}
             title="Acafo Challenge Application"
-            className="w-full min-h-[800px]"
-          ></iframe>
+            className="w-full min-h-[1200px]"
+          >
+            Loading…
+          </iframe>
         </div>
       </section>
 

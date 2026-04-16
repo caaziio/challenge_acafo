@@ -618,7 +618,7 @@ function CountdownBlock() {
 
   useEffect(() => {
     setMounted(true);
-    const targetDate = new Date("2026-04-15T09:00:00+09:00").getTime();
+    const targetDate = new Date("2026-04-20T09:00:00+09:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -645,7 +645,7 @@ function CountdownBlock() {
   return (
     <div className="flex flex-col items-center mt-12 w-full max-w-lg mx-auto transform hover:scale-[1.02] transition-transform">
       <div className="bg-yellow-400 text-slate-900 px-4 md:px-6 py-3 font-black uppercase tracking-widest text-sm md:text-lg border-4 border-slate-900 border-b-0 w-fit mx-auto shadow-[8px_0_0_0_#0f172a] relative z-20">
-        April Cohort Begins: April 15th
+        April Cohort Begins: April 20th
       </div>
       <div className="flex w-full bg-slate-900 text-white border-4 border-slate-900 shadow-[12px_12px_0_0_#0f172a] divide-x-4 divide-slate-800">
         {[

@@ -38,7 +38,7 @@ function HeroSection() {
       <div className="max-w-4xl mx-auto relative z-10 flex flex-col items-center">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-emerald-400 text-slate-900 text-xs font-black tracking-widest mb-10 border-2 border-slate-900 shadow-[4px_4px_0_0_#0f172a]">
           <span className="w-2 h-2 rounded-full bg-slate-900 animate-pulse"></span>
-          April Cohort • 10 Spots Only
+          June Cohort • 10 Spots Only
         </div>
 
         <h1 className="text-5xl md:text-8xl lg:text-[7rem] font-black tracking-tighter text-slate-900 leading-[0.9] mb-10 break-words px-4">
@@ -269,7 +269,7 @@ function SolutionSection() {
                   ))}
                 </div>
                 <p className="text-sm font-black text-slate-900 uppercase tracking-widest">
-                  April Cohort • 10 Max
+                  June Cohort • 10 Max
                 </p>
               </div>
             </div>
@@ -601,11 +601,11 @@ function FinalCTASection() {
           <span className="text-emerald-400" style={{ textShadow: '6px 6px 0px #0f172a' }}>Just offers.</span>
         </h2>
         <p className="text-2xl md:text-3xl text-slate-300 font-bold mb-16 tracking-wider">
-          April Cohort is filling. Time is ticking.
+          June Cohort is filling. Time is ticking.
         </p>
 
         <a href="/apply" className="inline-flex items-center justify-center gap-4 bg-white text-slate-900 px-12 py-8 font-black text-3xl tracking-widest uppercase border-4 border-slate-900 shadow-[12px_12px_0_0_#34d399] hover:translate-x-2 hover:translate-y-2 hover:shadow-[4px_4px_0_0_#34d399] transition-all">
-          Join April Cohort <ArrowRight className="w-10 h-10" />
+          Join June Cohort <ArrowRight className="w-10 h-10" />
         </a>
       </div>
     </section>
@@ -618,7 +618,7 @@ function CountdownBlock() {
 
   useEffect(() => {
     setMounted(true);
-    const targetDate = new Date("2026-04-20T09:00:00+09:00").getTime();
+    const targetDate = new Date("2026-06-01T09:00:00+09:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -645,7 +645,7 @@ function CountdownBlock() {
   return (
     <div className="flex flex-col items-center mt-12 w-full max-w-lg mx-auto transform hover:scale-[1.02] transition-transform">
       <div className="bg-yellow-400 text-slate-900 px-4 md:px-6 py-3 font-black uppercase tracking-widest text-sm md:text-lg border-4 border-slate-900 border-b-0 w-fit mx-auto shadow-[8px_0_0_0_#0f172a] relative z-20">
-        April Cohort Begins: April 20th
+        June Cohort Begins: June 1st
       </div>
       <div className="flex w-full bg-slate-900 text-white border-4 border-slate-900 shadow-[12px_12px_0_0_#0f172a] divide-x-4 divide-slate-800">
         {[

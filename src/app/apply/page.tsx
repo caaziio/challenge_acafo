@@ -13,7 +13,7 @@ export default function ApplyPage() {
             Back to Overview
           </a>
           <div className="bg-slate-900 text-white px-4 py-2 font-black text-xs uppercase tracking-widest border-2 border-slate-900">
-            April Cohort Application
+            June Cohort Application
           </div>
         </div>
       </nav>
@@ -26,7 +26,7 @@ export default function ApplyPage() {
             <span className="bg-slate-900 text-emerald-400 px-4 inline-block">Challenge.</span>
           </h1>
           <p className="text-xl text-slate-600 font-bold leading-relaxed mb-8">
-            Complete the form below to apply for the April Cohort. We limit each intake to 10 participants to ensure maximum focus and results.
+            Complete the form below to apply for the June Cohort. We limit each intake to 10 participants to ensure maximum focus and results.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
              <div className="flex items-center gap-2 bg-white border-2 border-slate-900 px-4 py-2 font-black text-sm uppercase">
